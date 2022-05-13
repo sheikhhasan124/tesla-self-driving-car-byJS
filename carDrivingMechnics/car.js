@@ -17,6 +17,10 @@ class Car{
     }
 
     update(){
+        this.#move()
+    }
+
+    #move(){
         if(this.controls.forword){
             // this.y-=2;
             this.speed+=this.acceleration;
